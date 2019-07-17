@@ -5,6 +5,7 @@ Terraform is a tool for building, changing, and versioning infrastructure safely
 
 Terraform is logically split into two main parts: Terraform Core and Terraform Plugins. Terraform Core uses remote procedure calls (RPC) to communicate with Terraform Plugins, and offers multiple ways to discover and load plugins to use. Terraform Plugins expose an implementation for a specific service, such as AWS, or provisioner, such as bash.
 
+The set of files used to describe infrastructure in Terraform is simply known as a Terraform configuration.
 
 #### Terraform Core 
 Terraform Core is a statically-compiled binary written in the Go programming language. The compiled binary is the command line tool (CLI) terraform, the entrypoint for anyone using Terraform. The code is open source and hosted at github.com/hashicorp/terraform.
