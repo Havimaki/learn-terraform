@@ -18,3 +18,4 @@ Terraform also wrote some data into the terraform.tfstate file. This state file 
 You can inspect the current state using terraform show.
 
 You can see that by creating our resource, we've also gathered a lot of information about it. These values can actually be referenced to configure other resources or outputs, which will be covered later in the getting started guide.
+
