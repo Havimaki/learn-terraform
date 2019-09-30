@@ -49,8 +49,8 @@ This is a required field. THis is where you will specify which region to build t
 This is a required field. You can see the changelog/release log of the aws provider here: https://github.com/terraform-providers/terraform-provider-aws/blob/master/CHANGELOG.md. In this case, I've just specified the most recent version. 
 **/
 provider "aws" {
-  AWS_ACCESS_KEY_ID = "AKIAIJNUWJG3I2W5RL2A"
-  AWS_SECRET_KEY_ID = "p3xSrKWvVLEyHyzA625f/aS6b6Dr9wHw7mMv/CBm"
+  AWS_ACCESS_KEY_ID = "xxxxx"
+  AWS_SECRET_KEY_ID = "xxxxx"
   region            = "${var.aws_region}"
   version           = "2.30.0"
 }
